@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/haoxin/github/CMPT479/week1/cgbuild/lib/callgraph-profiler-inst",
+  "command": "/usr/bin/c++    -I/usr/lib/llvm-6.0/include -I/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/include   -std=c++14 -fno-rtti -Wall -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/callgraph-profiler-inst.dir/ProfilingInstrumentationPass.cpp.o -c /home/haoxin/github/CMPT479/week1/callgraph-profiler-template/lib/callgraph-profiler-inst/ProfilingInstrumentationPass.cpp",
+  "file": "/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/lib/callgraph-profiler-inst/ProfilingInstrumentationPass.cpp"
+},
+{
+  "directory": "/home/haoxin/github/CMPT479/week1/cgbuild/lib/callgraph-profiler-rt",
+  "command": "/usr/bin/c++    -I/usr/lib/llvm-6.0/include -I/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/include   -std=c++14 -fno-rtti -Wall -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/callgraph-profiler-rt.dir/runtime.cpp.o -c /home/haoxin/github/CMPT479/week1/callgraph-profiler-template/lib/callgraph-profiler-rt/runtime.cpp",
+  "file": "/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/lib/callgraph-profiler-rt/runtime.cpp"
+},
+{
+  "directory": "/home/haoxin/github/CMPT479/week1/cgbuild/tools/callgraph-profiler",
+  "command": "/usr/bin/c++    -I/usr/lib/llvm-6.0/include -I/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/include -I/home/haoxin/github/CMPT479/week1/cgbuild/tools/callgraph-profiler   -std=c++14 -fno-rtti -Wall -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/callgraph-profiler.dir/main.cpp.o -c /home/haoxin/github/CMPT479/week1/callgraph-profiler-template/tools/callgraph-profiler/main.cpp",
+  "file": "/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/tools/callgraph-profiler/main.cpp"
+}
+]
