@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../libcallgraph-profiler-rt.a  CMakeFiles/callgraph-profiler-rt.dir/runtime.cpp.o
-/usr/bin/ranlib ../libcallgraph-profiler-rt.a

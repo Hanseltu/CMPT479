@@ -1,17 +1,27 @@
 [
 {
-  "directory": "/home/haoxin/github/CMPT479/week1/cgbuild/lib/callgraph-profiler-inst",
-  "command": "/usr/bin/c++    -I/usr/lib/llvm-6.0/include -I/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/include   -std=c++14 -fno-rtti -Wall -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/callgraph-profiler-inst.dir/ProfilingInstrumentationPass.cpp.o -c /home/haoxin/github/CMPT479/week1/callgraph-profiler-template/lib/callgraph-profiler-inst/ProfilingInstrumentationPass.cpp",
-  "file": "/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/lib/callgraph-profiler-inst/ProfilingInstrumentationPass.cpp"
+  "directory": "/Users/tuhaoxin/github/CMPT479/week1/cgbuild/lib/pathprofiler-inst",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/tuhaoxin/LLVM/llvm/include -I/Users/tuhaoxin/LLVM/build/include -I/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/include   -std=c++14 -fno-rtti -Wall -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/pathprofiler-inst.dir/PathEncodingPass.cpp.o -c /Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/lib/pathprofiler-inst/PathEncodingPass.cpp",
+  "file": "/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/lib/pathprofiler-inst/PathEncodingPass.cpp"
 },
 {
-  "directory": "/home/haoxin/github/CMPT479/week1/cgbuild/lib/callgraph-profiler-rt",
-  "command": "/usr/bin/c++    -I/usr/lib/llvm-6.0/include -I/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/include   -std=c++14 -fno-rtti -Wall -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/callgraph-profiler-rt.dir/runtime.cpp.o -c /home/haoxin/github/CMPT479/week1/callgraph-profiler-template/lib/callgraph-profiler-rt/runtime.cpp",
-  "file": "/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/lib/callgraph-profiler-rt/runtime.cpp"
+  "directory": "/Users/tuhaoxin/github/CMPT479/week1/cgbuild/lib/pathprofiler-inst",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/tuhaoxin/LLVM/llvm/include -I/Users/tuhaoxin/LLVM/build/include -I/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/include   -std=c++14 -fno-rtti -Wall -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/pathprofiler-inst.dir/PathProfilingPass.cpp.o -c /Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/lib/pathprofiler-inst/PathProfilingPass.cpp",
+  "file": "/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/lib/pathprofiler-inst/PathProfilingPass.cpp"
 },
 {
-  "directory": "/home/haoxin/github/CMPT479/week1/cgbuild/tools/callgraph-profiler",
-  "command": "/usr/bin/c++    -I/usr/lib/llvm-6.0/include -I/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/include -I/home/haoxin/github/CMPT479/week1/cgbuild/tools/callgraph-profiler   -std=c++14 -fno-rtti -Wall -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/callgraph-profiler.dir/main.cpp.o -c /home/haoxin/github/CMPT479/week1/callgraph-profiler-template/tools/callgraph-profiler/main.cpp",
-  "file": "/home/haoxin/github/CMPT479/week1/callgraph-profiler-template/tools/callgraph-profiler/main.cpp"
+  "directory": "/Users/tuhaoxin/github/CMPT479/week1/cgbuild/lib/pathprofiler-inst",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/tuhaoxin/LLVM/llvm/include -I/Users/tuhaoxin/LLVM/build/include -I/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/include   -std=c++14 -fno-rtti -Wall -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/pathprofiler-inst.dir/ProfileDecodingPass.cpp.o -c /Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/lib/pathprofiler-inst/ProfileDecodingPass.cpp",
+  "file": "/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/lib/pathprofiler-inst/ProfileDecodingPass.cpp"
+},
+{
+  "directory": "/Users/tuhaoxin/github/CMPT479/week1/cgbuild/lib/pathprofiler-rt",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/tuhaoxin/LLVM/llvm/include -I/Users/tuhaoxin/LLVM/build/include -I/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/include   -std=c++14 -fno-rtti -Wall -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/pathprofiler-rt.dir/runtime.cpp.o -c /Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/lib/pathprofiler-rt/runtime.cpp",
+  "file": "/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/lib/pathprofiler-rt/runtime.cpp"
+},
+{
+  "directory": "/Users/tuhaoxin/github/CMPT479/week1/cgbuild/tools/pathprofiler",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/tuhaoxin/LLVM/llvm/include -I/Users/tuhaoxin/LLVM/build/include -I/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/include -I/Users/tuhaoxin/github/CMPT479/week1/cgbuild/tools/pathprofiler   -std=c++14 -fno-rtti -Wall -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/pathprofiler.dir/main.cpp.o -c /Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/tools/pathprofiler/main.cpp",
+  "file": "/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/tools/pathprofiler/main.cpp"
 }
 ]

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tuhaoxin/github/CMPT479/week1/path-profiler-template/lib/pathprofiler-rt/runtime.cpp
+cstdint
+-
+cstdio
+-
+

@@ -1,4 +1,4 @@
-# Install script for directory: /home/haoxin/github/CMPT479/week1/callgraph-profiler-template
+# Install script for directory: /Users/tuhaoxin/github/CMPT479/week1/path-profiler-template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,15 +27,15 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/haoxin/github/CMPT479/week1/cgbuild/lib/cmake_install.cmake")
-  include("/home/haoxin/github/CMPT479/week1/cgbuild/tools/cmake_install.cmake")
+  include("/Users/tuhaoxin/github/CMPT479/week1/cgbuild/lib/cmake_install.cmake")
+  include("/Users/tuhaoxin/github/CMPT479/week1/cgbuild/tools/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/haoxin/github/CMPT479/week1/cgbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/tuhaoxin/github/CMPT479/week1/cgbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
